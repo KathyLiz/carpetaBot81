@@ -1,0 +1,26 @@
+{
+  "name": "cp",
+  "version": "1.0.0",
+  "description": "bot para dar soporte al usuario",
+  "main": "index.js",
+  "scripts": {
+    "test": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KathyLiz/carpetaBot81.git"
+  },
+  "keywords": [
+    "node",
+    "messenger",
+    "bot",
+    "apiai",
+    "https"
+  ],
+  "author": "Katherine Hurtado, Gabriel Valdiviezo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KathyLiz/carpetaBot81/issues"
+  },
+  "homepage": "https://github.com/KathyLiz/carpetaBot81#readme"
+}
