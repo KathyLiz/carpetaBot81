@@ -8,7 +8,8 @@ const messageWebhookController = require('./controllers/messageWebhook');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(__dirname + '/public'));
+
+/*app.use(express.static(__dirname + '/public'));
 
 //Se toman los parámetros del formulario, se evalúa u se redirige a messenger
 app.get('/authorize', function (req, res) {
@@ -34,7 +35,7 @@ app.get('/authorize', function (req, res) {
 
 app.get('*', function(req, res) {  
     res.sendfile('./public/index.html');                
-});
+});*/
 app.get('/', verificationController);
 app.post('/', messageWebhookController);
 
